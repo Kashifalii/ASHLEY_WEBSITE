@@ -5,798 +5,839 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ASHLEY</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/d1ef259b33.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- onload effect -->
-    <div class="onload-effect" id="onload-effect">
-        <h1>ASHLEY WEBSITE</h1>
-        <div class="loader"></div>
-    </div>
-
-    <header>
-        <!--  -->
+    <main>
+        <!-- onload effect -->
         <div class="onload-effect" id="onload-effect">
-            <h1>ASHLEY <span>WEBSITE</span></h1>
+            <h1>ASHLEY WEBSITE</h1>
             <div class="loader"></div>
         </div>
-        <!--  -->
-        <video autoplay loop>
-            <source src="./assets/video/videoplayback.mp4" type="video/mp4">
-        </video>
-        <a href="#last" id="up-down">go down</a>
-        <!-- navbar -->
-        <div class="navbar" id="navbar">
-            <p class="logo">ASHLEY.</p>
-            <div class="nav-btn">
-                <div id="bar1"></div>
-                <div id="bar2"></div>
-                <div id="bar3"></div>
+
+        <header>
+            <!--  -->
+            <div class="onload-effect" id="onload-effect">
+                <h1>ASHLEY <span>WEBSITE</span></h1>
+                <div class="loader"></div>
             </div>
-        </div>
-        <div class="nav-slide" id="nav-slide">
-            <ul id="list">
-                <li><a href="#">Homepage</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Newsletter</a></li>
-                <li><a href="#">Other Pages</a></li>
-            </ul>
-        </div>
-        <!-- content -->
-        <div class="container">
-            <div class="row mx-0 content ">
-                <div class="col-12 text-content">
-                    <h1><span>Designing</span> a Better <span>World</span> Today</h1>
-                    <p>Welcome to our world of endless imagination and boundless creativity. Together, let's embark on a
-                        remarkable journey where dreams become tangible realities.</p>
-                    <div class="footer">
-                        <div class="btn1 d-flex align-items-center justify-content-between">
-                            <p>WHAT WE DO</p>
+            <!--  -->
+            <video autoplay loop>
+                <source src="./assets/video/videoplayback.mp4" type="video/mp4">
+            </video>
+            <a href="#last" aria-label="go down button" id="up-down">go down</a>
+            <!-- navbar -->
+            <div class="navbar" id="navbar">
+                <p class="logo">ASHLEY.</p>
+                <div class="nav-btn">
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="bar3"></div>
+                </div>
+            </div>
+            <div class="nav-slide" id="nav-slide">
+                <ul id="list">
+                    <li><a href="#">Homepage</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Other Pages</a></li>
+                </ul>
+            </div>
+            <!-- content -->
+            <div class="container">
+                <div class="row mx-0 content ">
+                    <div class="col-12 text-content">
+                        <h1><span>Designing</span> a Better <span>World</span> Today</h1>
+                        <p>Welcome to our world of endless imagination and boundless creativity. Together, let's embark
+                            on a
+                            remarkable journey where dreams become tangible realities.</p>
+                        <div class="footer">
+                            <div class="btn1 d-flex align-items-center justify-content-between">
+                                <p>WHAT WE DO</p>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- section-1 -->
+        <section class="sec1">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-lg-5 col-12 text-wrapper d-flex flex-column justify-content-center mb-lg-0 mb-5">
+                        <h1>Discover Our <span>Studio</span></h1>
+                        <p id="para">At our design studio, we are a collective of talented individuals ignited by our
+                            unwavering
+                            passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds
+                            and
+                            a vast array of skill sets, we join forces to create compelling solutions for our esteemed
+                            clients.</p>
+                        <p id="para">Collaboration is at the heart of what we do. Our team thrives on the synergy that
+                            arises when
+                            unique perspectives converge, fostering an environment of boundless creativity. By
+                            harnessing
+                            our collective expertise, we produce extraordinary results that consistently surpass
+                            expectations.</p>
+                        <div class="text-footer d-flex align-items-center gap-4">
+                            <div class="img-wrap">
+                                <img src="./assets/images/discover/2.jpg" alt="discover image">
+                                <span id="after">"</span>
+                            </div>
+                            <div class="txt-wrap">
+                                <p class="mb-1">Passionately Creating <span>Design Wonders:</span></p>
+                                <p>Unleashing <span>Boundless Creativity.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-7 col-12 image-wrapper position-relative d-flex align-items-baseline justify-content-end">
+                        <span id="back-effect"></span>
+                        <img id="main-img" src="./assets/images/discover/1.jpg" alt="user image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-2 -->
+        <section class="sec2">
+            <video autoplay loop src="./assets/video/sec2.mp4"></video>
+            <div class="container">
+                <div class="row mx-0 position-relative z-2 ">
+                    <div class="col-12 title text-center">
+                        <h1>Unique <span>Ideas</span> <i class="fa-solid fa-lightbulb bb"></i> <span>For</span>
+                            Business.
+                        </h1>
+                    </div>
+                    <div class="col-lg-6 col-12 paragraphs mb-lg-0 mb-5">
+                        <p id="paras">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia et
+                            eum
+                            vero labore
+                            tempore distinctio, sed, reprehenderit doloribus velit neque molestiae! Accusamus ratione
+                            quaerat doloribus debitis suscipit quasi, dolor corporis possimus itaque quis a hic aliquid
+                            libero. Repudiandae, recusandae?</p>
+                        <p id="paras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestias ipsam
+                            consequuntur, eius,
+                            praesentium atque eaque odit ratione vitae, repudiandae expedita voluptates delectus nemo
+                            maiores minima autem nesciunt cum ea?</p>
+                        <div class="btn2 d-flex align-items-center justify-content-between">
+                            <p>IDEAS FOR YOU</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 img-wrap"><img class="w-100 h-75 object-fit-cover"
+                            src="./assets/images/ideas.jpg" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-3 -->
+        <section class="sec3">
+            <div class="container">
+                <div class="row mx-0 justify-content-between">
+                    <div class="col-xl-4 col-12 text-content">
+                        <h2>Meet<br> Our Team</h2>
+                        <p id="paras">We are talented individuals who are passionate about bringing ideas to life. With
+                            a
+                            diverse range
+                            of backgrounds and skill sets, we collaborate to produce effective solutions for our
+                            clients.
+                        </p>
+                        <p id="paras">Together, our creative team is committed to delivering impactful work that exceeds
+                            expectations.
+                        </p>
+                        <div class="btn3 d-flex align-items-center justify-content-between">
+                            <p>READ MORE</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <h5><span>We</span> delivering <span>exceptional</span> results.</h5>
+                    </div>
+                    <div class="col-xl-7 col-12 image-wrapper">
+                        <span id="back-effect"></span>
+                        <div class="row mx-0 card-wrapper">
+                            <div class="col-xxl-1 col-2 d-xl-block d-none"></div>
+                            <div class="col-xl-5 col-md-6 col-12 overflow-hidden">
+                                <div class="first d-flex flex-column">
+                                    <p id="founders" class="d-md-none d-block"><sup>*</sup> The founders of our agency
+                                    </p>
+                                    <!-- card-1 -->
+                                    <div class="c1 position-relative mb-4">
+                                        <img class="back-img position-relative z-0" src="./assets/images/team/1.jpg"
+                                            alt="">
+                                        <div
+                                            class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
+                                            <div class="text text-center">
+                                                <h2>Ana Oldman</h2>
+                                                <p>ART DIRECTOR</p>
+                                                <div class="icon-grp d-flex justify-content-center align-items-center">
+                                                    <i class="fa-brands fa-behance"></i>
+                                                    <i class="fa-brands fa-dribbble"></i>
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                    <i class="fa-brands fa-github"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-2 -->
+                                    <div class="c1 position-relative mb-md-0 mb-4">
+                                        <img class="back-img position-relative z-0" src="./assets/images/team/3.jpg"
+                                            alt="">
+                                        <div
+                                            class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
+                                            <div class="text text-center">
+                                                <h2>Oscar Freeman</h2>
+                                                <p>FRONTEND DEV</p>
+                                                <div class="icon-grp d-flex justify-content-center align-items-center">
+                                                    <i class="fa-brands fa-behance"></i>
+                                                    <i class="fa-brands fa-dribbble"></i>
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                    <i class="fa-brands fa-github"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- second  -->
+                            <div class="col-xl-5 col-md-6 col-12 overflow-hidden">
+                                <div class="first d-flex flex-column">
+                                    <p id="founders" class="d-md-block d-none"><sup>*</sup> The founders of our agency
+                                    </p>
+                                    <!-- card-3 -->
+                                    <div class="c1 position-relative mb-4">
+                                        <img class="back-img position-relative z-0" src="./assets/images/team/2.jpg"
+                                            alt="">
+                                        <div
+                                            class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
+                                            <div class="text text-center">
+                                                <h2>Emma Newman</h2>
+                                                <p>ART DIRECTOR</p>
+                                                <div class="icon-grp d-flex justify-content-center align-items-center">
+                                                    <i class="fa-brands fa-behance"></i>
+                                                    <i class="fa-brands fa-dribbble"></i>
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                    <i class="fa-brands fa-github"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- card-4 -->
+                                    <div class="c1 position-relative">
+                                        <img class="back-img position-relative z-0" src="./assets/images/team/4.jpg"
+                                            alt="">
+                                        <div
+                                            class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
+                                            <div class="text text-center">
+                                                <h2>Lisa Trueman</h2>
+                                                <p>UI/UX DESIGNER</p>
+                                                <div class="icon-grp d-flex justify-content-center align-items-center">
+                                                    <i class="fa-brands fa-behance"></i>
+                                                    <i class="fa-brands fa-dribbble"></i>
+                                                    <i class="fa-brands fa-twitter"></i>
+                                                    <i class="fa-brands fa-github"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-4 -->
+        <section class="sec4">
+            <div class="container">
+                <div class="row mx-0 cards-wrapper">
+                    <div class="col-12 heading text-center">
+                        <h1>WHAT WE DO?</h1>
+                        <p>We Develop websites with new ideas and with more creative designs.</p>
+                    </div>
+                    <!-- c1 -->
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="crd position-relative">
+                            <span id="top"></span>
+                            <span id="bottom"></span>
+                            <div class="content position-relative z-1">
+                                <i id="logo" class="fa-brands fa-algolia"></i>
+                                <h2 id="title">Branding & Identity Design</h2>
+                                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error
+                                    ab
+                                    et
+                                    sint repudiandae voluptatum voluptatem enim.</p>
+                                <i id="go" class="fa-solid fa-circle-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- c2 -->
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="crd position-relative">
+                            <span id="top"></span>
+                            <span id="bottom"></span>
+                            <div class="content position-relative z-1">
+                                <i id="logo" class="fa-brands fa-figma"></i>
+                                <h2 id="title">Website Design & Development</h2>
+                                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error
+                                    ab
+                                    et
+                                    sint repudiandae voluptatum voluptatem enim.</p>
+                                <i id="go" class="fa-solid fa-circle-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- c3 -->
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="crd position-relative">
+                            <span id="top"></span>
+                            <span id="bottom"></span>
+                            <div class="content position-relative z-1">
+                                <i id="logo" class="fa-brands fa-threads"></i>
+                                <h2 id="title">Advertisement & Marketing</h2>
+                                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error
+                                    ab
+                                    et
+                                    sint repudiandae voluptatum voluptatem enim.</p>
+                                <i id="go" class="fa-solid fa-circle-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- c4 -->
+                    <div class="col-xl-3 col-md-6 col-12">
+                        <div class="crd position-relative">
+                            <span id="top"></span>
+                            <span id="bottom"></span>
+                            <div class="content position-relative z-1">
+                                <i id="logo" class="fa-regular fa-lightbulb"></i>
+                                <h2 id="title">Creativity & New Ideas</h2>
+                                <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error
+                                    ab
+                                    et
+                                    sint repudiandae voluptatum voluptatem enim.</p>
+                                <i id="go" class="fa-solid fa-circle-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ----- -->
+                </div>
+            </div>
+        </section>
+
+        <!-- section-5 -->
+        <section class="sec5">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-12 heading text-center">
+                        <h1>Customer <span>Voices:</span></h1>
+                        <h1>Hear What <span>They Say!</span></h1>
+                    </div>
+                    <!-- carrousel wrapper -->
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><img
+                                        src="./assets/images/slider/1.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="1" class="" aria-current="true" aria-label="Slide 2"><img
+                                        src="./assets/images/slider/2.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="2" class="" aria-current="true" aria-label="Slide 3"><img
+                                        src="./assets/images/slider/3.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="3" class="" aria-current="true" aria-label="Slide 4"><img
+                                        src="./assets/images/slider/4.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="5" class="" aria-current="true" aria-label="Slide 5"><img
+                                        src="./assets/images/slider/5.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="6" class="" aria-current="true" aria-label="Slide 6"><img
+                                        src="./assets/images/slider/6.jpg" alt=""></a>
+                                <a href="#" type="button" data-bs-target="#carouselExampleIndicators"
+                                    data-bs-slide-to="7" class="" aria-current="true" aria-label="Slide 7"><img
+                                        src="./assets/images/slider/7.jpg" alt=""></a>
+                            </div>
+                            <div class="carousel-inner">
+                                <!-- 1 -->
+                                <div class="carousel-item text-center active">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Sarah Newman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star-half-stroke star"></i>
+                                    </div>
+                                </div>
+                                <!-- 2 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Emma Trueman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- 3 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Oscar Freeman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- 4 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Eva Batman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star-half-stroke star"></i>
+                                    </div>
+                                </div>
+                                <!-- 5 -->
+                                <div class="carousel-item text-center quote">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                    <h5 id="name">Villiam Boldman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                </div>
+                                <!-- 6 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Braen Oldman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                    </div>
+                                </div>
+                                <!-- 7 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">Albert Badman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star-half-stroke star"></i>
+                                    </div>
+                                </div>
+                                <!-- 8 -->
+                                <div class="carousel-item text-center">
+                                    <i class="fa-solid fa-quote-right quote"></i>
+                                    <h5 id="name">William Voldman</h5>
+                                    <p id="work">ENVATO MARKET</p>
+                                    <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et
+                                        non
+                                        optio
+                                        deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem
+                                        debitis
+                                        perferendis ipsum accusantium corrupti ut officiis expedita.</P>
+                                    <div class="icon-grp">
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                        <i class="fa-solid fa-star star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-6 -->
+        <section class="sec6">
+            <div class="container">
+                <div class="row mx-0 news">
+                    <div class="col-12 heading text-center mb-5">
+                        <h1>LATEST <span>NEWS</span></h1>
+                        <p>-- Latest news about newly grownig products and companies --</p>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-4 col-12 mb-lg-0 mb-5 overflow-hidden">
+                        <div class="one overflow-hidden position-relative" id="one">
+                            <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-01.jpg"
+                                alt="">
+                            <div class="overlay position-absolute z-1">
+                                <p id="date">December 27, 2020</p>
+                                <h3 id="title">Scent in the Voyages</h3>
+                                <p id="title-under">|&nbsp;&nbsp; Aorem ipsum dolor sit amet.</p>
+                                <p id="para">Let years seasons given two fowl above is itself shall third night female
+                                    seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
+                                    creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
+                                <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
+                                <div class="icon-grp">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                </div>
+                            </div>
+                            <span id="one-top"></span>
+                            <span id="one-bottom"></span>
+                            <span id="one-left"></span>
+                            <span id="one-right"></span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-4 col-12 mb-lg-0 mb-5 overflow-hidden">
+                        <div class="one overflow-hidden position-relative" id="one">
+                            <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-02.jpg"
+                                alt="">
+                            <div class="overlay position-absolute z-1">
+                                <p id="date">October 17, 2020</p>
+                                <h3 id="title">Stone of the Flames</h3>
+                                <p id="title-under">|&nbsp;&nbsp; Consect adipisn elit otam.</p>
+                                <p id="para">Let years seasons given two fowl above is itself shall third night female
+                                    seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
+                                    creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
+                                <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
+                                <div class="icon-grp">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                </div>
+                            </div>
+                            <span id="one-top"></span>
+                            <span id="one-bottom"></span>
+                            <span id="one-left"></span>
+                            <span id="one-right"></span>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="col-lg-4 col-12 overflow-hidden">
+                        <div class="one overflow-hidden position-relative" id="one">
+                            <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-03.jpg"
+                                alt="">
+                            <div class="overlay position-absolute z-1">
+                                <p id="date">February 27, 2020</p>
+                                <h3 id="title">Secrets of Serpents</h3>
+                                <p id="title-under">|&nbsp;&nbsp; Dolor irona ipsum Vit amet.</p>
+                                <p id="para">Let years seasons given two fowl above is itself shall third night female
+                                    seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
+                                    creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
+                                <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
+                                <div class="icon-grp">
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                                </div>
+                            </div>
+                            <span id="one-top"></span>
+                            <span id="one-bottom"></span>
+                            <span id="one-left"></span>
+                            <span id="one-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- section-7 -->
+        <section class="sec7">
+            <div class="container">
+                <div class="heading text-center mb-5">
+                    <h1>INVESTMENT <span>PLANS</span></h1>
+                    <p>Pricing Plans to make your work more efficient</p>
+                </div>
+                <div class="row mx-0 cards-wrapper justify-content-center">
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-12 mb-md-0 mb-4">
+                        <div class="crd">
+                            <h2 id="free">Free</h2>
+                            <p id="freelance">For Freelancers</p>
+                            <h1 id="price">$0</h1>
+                            <ul id="list">
+                                <li><i class="fa-regular fa-circle-check"></i>1 User</li>
+                                <li><i class="fa-regular fa-circle-check"></i>10 Downloads per day</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Not Fully Editable Files</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Browse With ads</li>
+                            </ul>
+                            <a href="#" id="btn">Subscribe</a>
+                        </div>
+                    </div>
+                    <!-- c2 -->
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-12">
+                        <div class="crd">
+                            <h2 id="free">Basic</h2>
+                            <p id="freelance">For Students</p>
+                            <h1 id="price">$20</h1>
+                            <ul id="list">
+                                <li><i class="fa-regular fa-circle-check"></i>1 User</li>
+                                <li><i class="fa-regular fa-circle-check"></i>50 Downloads per day</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Browse With ads</li>
+                            </ul>
+                            <a href="#" id="btn">Subscribe</a>
+                        </div>
+                    </div>
+                    <!-- c3 -->
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-12 mt-lg-0 mt-4">
+                        <div class="crd">
+                            <h2 id="free">Gold</h2>
+                            <p id="freelance">For Team</p>
+                            <h1 id="price">$70</h1>
+                            <ul id="list">
+                                <li><i class="fa-regular fa-circle-check"></i>20 User</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Unlimited Downloads</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Browse Without ads</li>
+                            </ul>
+                            <a href="#" id="btn">Subscribe</a>
+                        </div>
+                    </div>
+                    <!-- c4 -->
+                    <div class="col-xl-3 col-lg-4 col-md-5 col-12 mt-xl-0 mt-4">
+                        <div class="crd">
+                            <span id="badge">20%<br>Super<br>Sale</span>
+                            <h2 id="free">Premium</h2>
+                            <p id="freelance">For Company</p>
+                            <h1 id="price">$150</h1>
+                            <ul id="list">
+                                <li><i class="fa-regular fa-circle-check"></i>Unlimited User</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Unlimited Downloads</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
+                                <li><i class="fa-regular fa-circle-check"></i>Browse Without ads</li>
+                            </ul>
+                            <a href="#" id="btn">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row mx-0">
+                    <!-- 1 -->
+                    <div class="col-lg-4 col-sm-7 first">
+                        <h1 id="logo">Ashley.</h1>
+                        <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat hic
+                            corporis
+                            dolorum
+                            natus. Aliquid, iure modi minima voluptatum voluptates.</p>
+                        <!--  -->
+                        <div class="details d-flex flex-column">
+                            <!-- address -->
+                            <div class="detail d-flex align-items-center">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                                <div>
+                                    <p id="name">Address</p>
+                                    <p id="para">1234 Main Street, New York, USA</p>
+                                </div>
+                            </div>
+                            <!-- email -->
+                            <div class="detail d-flex align-items-center">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                                <div>
+                                    <p id="name">Email</p>
+                                    <p id="para">Info56company@gamil.com</p>
+                                </div>
+                            </div>
+                            <!-- phone -->
+                            <div class="detail d-flex align-items-center">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <p id="name">Phone</p>
+                                    <p id="para">0000 - 5547 - 2545 - 1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="col-lg-3 col-sm-5 second mt-sm-0 mt-5">
+                        <ul class="list">
+                            <h1>Services</h1>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">App Design</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Graphic Design</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Cyber Security</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Ethical Hacking</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Web Development</a></li>
+                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Digital Marketing</a></li>
+                        </ul>
+                    </div>
+                    <!-- 3 -->
+                    <div class="col-lg-5 col-12 third mt-lg-0 mt-sm-5 mt-4">
+                        <div class="comments">
+                            <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i>
+                                    Leonardo
+                                    Shed</span>&nbsp;
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
+                                tenetur quam id magni, voluptatem reiciendis. Accusamus magnam iusto fuga soluta
+                                aperiam?
+                            </p>
+                            <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i>
+                                    Winslett
+                                    decaprio</span>&nbsp;
+                                Necessitatibus eius ccusamus magnam iusto fuga soluta aperiam doloremque tenetur quam id
+                                magni, voluptatem reiciendis. Accusamus
+                                magnam iusto fuga soluta aperiam.
+                            </p>
+                            <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Brade
+                                    de wan</span>&nbsp;
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
+                                Accusamus magnam iusto fuga soluta aperiam.
+                            </p>
+                            <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Sehra
+                                    Sam</span>&nbsp;
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
+                                tenetur quam id magni, voluptatem reiciendis. Accusamus magnam iusto fuga soluta
+                                aperiam.
+                            </p>
+                        </div>
+                        <div class="btn1 d-flex align-items-center justify-content-between"
+                            data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
+                            <p>LOGIN HERE</p>
                             <i class="fa-solid fa-arrow-right"></i>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+            <!-- modal -->
+            <!-- m1 -->
+            <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+                tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header border-0">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="#" class="text-center d-flex flex-column align-items-center form1">
+                                <img src="./assets/images/user-286.png" alt="img" class="w-25 h-25 ">
+                                <h3 class="mb-5 log">User Login</h3>
+                                <input type="email" placeholder="Email or Phone Number"
+                                    class="w-100 bg-transparent mb-4">
+                                <input type="password" placeholder="Password" class="w-100 bg-transparent mb-5">
+                                <a href="#" class="text-decoration-none">Have an account? <span>Sign up</span></a>
+                                <a href="#" class="text-decoration-none">Forgotten Password?</a>
+                            </form>
+                        </div>
+                        <div class="modal-footer border-top-0 align-items-center">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                data-bs-toggle="modal">Continue</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- m2 -->
+            <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <form action="#" class="text-center d-flex flex-column align-items-center form1">
+                                <img src="./assets/images/user-286.png" alt="img">
+                                <h3 class="log">User Info</h3>
+                                <input type="text" placeholder="First Name" class="w-100 bg-transparent mb-4">
+                                <input type="text" placeholder="Last Name" class="w-100 bg-transparent mb-4">
+                                <input type="text" placeholder="Id Number" class="w-100 bg-transparent mb-5">
+                                <a href="#" class="text-decoration-none submit">Submit</a>
+                            </form>
+                        </div>
+                        <div class="modal-footer border-top-0">
+                            <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                data-bs-toggle="modal"><i class="fa-solid fa-angles-left"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-    <!-- section-1 -->
-    <div class="sec1">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-lg-5 col-12 text-wrapper d-flex flex-column justify-content-center mb-lg-0 mb-5">
-                    <h1>Discover Our <span>Studio</span></h1>
-                    <p id="para">At our design studio, we are a collective of talented individuals ignited by our
-                        unwavering
-                        passion for transforming ideas into reality. With a harmonious blend of diverse backgrounds and
-                        a vast array of skill sets, we join forces to create compelling solutions for our esteemed
-                        clients.</p>
-                    <p id="para">Collaboration is at the heart of what we do. Our team thrives on the synergy that
-                        arises when
-                        unique perspectives converge, fostering an environment of boundless creativity. By harnessing
-                        our collective expertise, we produce extraordinary results that consistently surpass
-                        expectations.</p>
-                    <div class="text-footer d-flex align-items-center gap-4">
-                        <div class="img-wrap">
-                            <img src="./assets/images/discover/2.jpg" alt="">
-                            <span id="after">"</span>
-                        </div>
-                        <div class="txt-wrap">
-                            <p class="mb-1">Passionately Creating <span>Design Wonders:</span></p>
-                            <p>Unleashing <span>Boundless Creativity.</span></p>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-lg-7 col-12 image-wrapper position-relative d-flex align-items-baseline justify-content-end">
-                    <span id="back-effect"></span>
-                    <img id="main-img" src="./assets/images/discover/1.jpg" alt="">
-                </div>
+        <!-- last -->
+        <div class="last text-center" id="last">
+            <p>- <b>Ashley</b> Website &copy; 2024 All Copyrights Reserved. Created by <b>HellBoy</b> -</p>
+            <div class="icon-grp">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-behance"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
             </div>
         </div>
-    </div>
-
-    <!-- section-2 -->
-    <div class="sec2">
-        <video autoplay loop src="./assets/video/sec2.mp4"></video>
-        <div class="container">
-            <div class="row mx-0 position-relative z-2 ">
-                <div class="col-12 title text-center">
-                    <h1>Unique <span>Ideas</span> <i class="fa-solid fa-lightbulb bb"></i> <span>For</span> Business.
-                    </h1>
-                </div>
-                <div class="col-lg-6 col-12 paragraphs mb-lg-0 mb-5">
-                    <p id="paras">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quia et eum
-                        vero labore
-                        tempore distinctio, sed, reprehenderit doloribus velit neque molestiae! Accusamus ratione
-                        quaerat doloribus debitis suscipit quasi, dolor corporis possimus itaque quis a hic aliquid
-                        libero. Repudiandae, recusandae?</p>
-                    <p id="paras">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut molestias ipsam
-                        consequuntur, eius,
-                        praesentium atque eaque odit ratione vitae, repudiandae expedita voluptates delectus nemo
-                        maiores minima autem nesciunt cum ea?</p>
-                    <div class="btn2 d-flex align-items-center justify-content-between">
-                        <p>IDEAS FOR YOU</p>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-12 img-wrap"><img class="w-100 h-75 object-fit-cover"
-                        src="./assets/images/ideas.jpg" alt=""></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section-3 -->
-    <div class="sec3">
-        <div class="container">
-            <div class="row mx-0 justify-content-between">
-                <div class="col-xl-4 col-12 text-content">
-                    <h2>Meet<br> Our Team</h2>
-                    <p id="paras">We are talented individuals who are passionate about bringing ideas to life. With a
-                        diverse range
-                        of backgrounds and skill sets, we collaborate to produce effective solutions for our clients.
-                    </p>
-                    <p id="paras">Together, our creative team is committed to delivering impactful work that exceeds
-                        expectations.
-                    </p>
-                    <div class="btn3 d-flex align-items-center justify-content-between">
-                        <p>READ MORE</p>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                    <h5><span>We</span> delivering <span>exceptional</span> results.</h5>
-                </div>
-                <div class="col-xl-7 col-12 image-wrapper">
-                    <span id="back-effect"></span>
-                    <div class="row mx-0 card-wrapper">
-                        <div class="col-xxl-1 col-2 d-xl-block d-none"></div>
-                        <div class="col-xl-5 col-md-6 col-12 overflow-hidden">
-                            <div class="first d-flex flex-column">
-                                <p id="founders" class="d-md-none d-block"><sup>*</sup> The founders of our agency</p>
-                                <!-- card-1 -->
-                                <div class="c1 position-relative mb-4">
-                                    <img class="back-img position-relative z-0" src="./assets/images/team/1.jpg" alt="">
-                                    <div
-                                        class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
-                                        <div class="text text-center">
-                                            <h2>Ana Oldman</h2>
-                                            <p>ART DIRECTOR</p>
-                                            <div class="icon-grp d-flex justify-content-center align-items-center">
-                                                <i class="fa-brands fa-behance"></i>
-                                                <i class="fa-brands fa-dribbble"></i>
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-github"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card-2 -->
-                                <div class="c1 position-relative mb-md-0 mb-4">
-                                    <img class="back-img position-relative z-0" src="./assets/images/team/3.jpg" alt="">
-                                    <div
-                                        class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
-                                        <div class="text text-center">
-                                            <h2>Oscar Freeman</h2>
-                                            <p>FRONTEND DEV</p>
-                                            <div class="icon-grp d-flex justify-content-center align-items-center">
-                                                <i class="fa-brands fa-behance"></i>
-                                                <i class="fa-brands fa-dribbble"></i>
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-github"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- second  -->
-                        <div class="col-xl-5 col-md-6 col-12 overflow-hidden">
-                            <div class="first d-flex flex-column">
-                                <p id="founders" class="d-md-block d-none"><sup>*</sup> The founders of our agency</p>
-                                <!-- card-3 -->
-                                <div class="c1 position-relative mb-4">
-                                    <img class="back-img position-relative z-0" src="./assets/images/team/2.jpg" alt="">
-                                    <div
-                                        class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
-                                        <div class="text text-center">
-                                            <h2>Emma Newman</h2>
-                                            <p>ART DIRECTOR</p>
-                                            <div class="icon-grp d-flex justify-content-center align-items-center">
-                                                <i class="fa-brands fa-behance"></i>
-                                                <i class="fa-brands fa-dribbble"></i>
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-github"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- card-4 -->
-                                <div class="c1 position-relative">
-                                    <img class="back-img position-relative z-0" src="./assets/images/team/4.jpg" alt="">
-                                    <div
-                                        class="effect position-absolute top-0 z-1 w-100 h-100 d-flex align-items-end justify-content-center">
-                                        <div class="text text-center">
-                                            <h2>Lisa Trueman</h2>
-                                            <p>UI/UX DESIGNER</p>
-                                            <div class="icon-grp d-flex justify-content-center align-items-center">
-                                                <i class="fa-brands fa-behance"></i>
-                                                <i class="fa-brands fa-dribbble"></i>
-                                                <i class="fa-brands fa-twitter"></i>
-                                                <i class="fa-brands fa-github"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section-4 -->
-    <div class="sec4">
-        <div class="container">
-            <div class="row mx-0 cards-wrapper">
-                <div class="col-12 heading text-center">
-                    <h1>WHAT WE DO?</h1>
-                    <p>We Develop websites with new ideas and with more creative designs.</p>
-                </div>
-                <!-- c1 -->
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="crd position-relative">
-                        <span id="top"></span>
-                        <span id="bottom"></span>
-                        <div class="content position-relative z-1">
-                            <i id="logo" class="fa-brands fa-algolia"></i>
-                            <h2 id="title">Branding & Identity Design</h2>
-                            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error ab
-                                et
-                                sint repudiandae voluptatum voluptatem enim.</p>
-                            <i id="go" class="fa-solid fa-circle-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- c2 -->
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="crd position-relative">
-                        <span id="top"></span>
-                        <span id="bottom"></span>
-                        <div class="content position-relative z-1">
-                            <i id="logo" class="fa-brands fa-figma"></i>
-                            <h2 id="title">Website Design & Development</h2>
-                            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error ab
-                                et
-                                sint repudiandae voluptatum voluptatem enim.</p>
-                            <i id="go" class="fa-solid fa-circle-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- c3 -->
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="crd position-relative">
-                        <span id="top"></span>
-                        <span id="bottom"></span>
-                        <div class="content position-relative z-1">
-                            <i id="logo" class="fa-brands fa-threads"></i>
-                            <h2 id="title">Advertisement & Marketing</h2>
-                            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error ab
-                                et
-                                sint repudiandae voluptatum voluptatem enim.</p>
-                            <i id="go" class="fa-solid fa-circle-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- c4 -->
-                <div class="col-xl-3 col-md-6 col-12">
-                    <div class="crd position-relative">
-                        <span id="top"></span>
-                        <span id="bottom"></span>
-                        <div class="content position-relative z-1">
-                            <i id="logo" class="fa-regular fa-lightbulb"></i>
-                            <h2 id="title">Creativity & New Ideas</h2>
-                            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus error ab
-                                et
-                                sint repudiandae voluptatum voluptatem enim.</p>
-                            <i id="go" class="fa-solid fa-circle-arrow-right"></i>
-                        </div>
-                    </div>
-                </div>
-                <!-- ----- -->
-            </div>
-        </div>
-    </div>
-
-    <!-- section-5 -->
-    <div class="sec5">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-12 heading text-center">
-                    <h1>Customer <span>Voices:</span></h1>
-                    <h1>Hear What <span>They Say!</span></h1>
-                </div>
-                <!-- carrousel wrapper -->
-                <div class="col-12">
-                    <div id="carouselExampleIndicators" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"><img
-                                    src="./assets/images/slider/1.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                class="" aria-current="true" aria-label="Slide 2"><img
-                                    src="./assets/images/slider/2.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                class="" aria-current="true" aria-label="Slide 3"><img
-                                    src="./assets/images/slider/3.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                                class="" aria-current="true" aria-label="Slide 4"><img
-                                    src="./assets/images/slider/4.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
-                                class="" aria-current="true" aria-label="Slide 5"><img
-                                    src="./assets/images/slider/5.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6"
-                                class="" aria-current="true" aria-label="Slide 6"><img
-                                    src="./assets/images/slider/6.jpg" alt=""></a>
-                            <a href="#" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7"
-                                class="" aria-current="true" aria-label="Slide 7"><img
-                                    src="./assets/images/slider/7.jpg" alt=""></a>
-                        </div>
-                        <div class="carousel-inner">
-                            <!-- 1 -->
-                            <div class="carousel-item text-center active">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Sarah Newman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star-half-stroke star"></i>
-                                </div>
-                            </div>
-                            <!-- 2 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Emma Trueman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                </div>
-                            </div>
-                            <!-- 3 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Oscar Freeman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                </div>
-                            </div>
-                            <!-- 4 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Eva Batman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star-half-stroke star"></i>
-                                </div>
-                            </div>
-                            <!-- 5 -->
-                            <div class="carousel-item text-center quote">
-                                <i class="fa-solid fa-quote-right"></i>
-                                <h5 id="name">Villiam Boldman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                            </div>
-                            <!-- 6 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Braen Oldman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                </div>
-                            </div>
-                            <!-- 7 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">Albert Badman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star-half-stroke star"></i>
-                                </div>
-                            </div>
-                            <!-- 8 -->
-                            <div class="carousel-item text-center">
-                                <i class="fa-solid fa-quote-right quote"></i>
-                                <h5 id="name">William Voldman</h5>
-                                <p id="work">ENVATO MARKET</p>
-                                <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate et non
-                                    optio
-                                    deserunt eius natus facilis nobis quis autem fuga reprehenderit, voluptatem debitis
-                                    perferendis ipsum accusantium corrupti ut officiis expedita.</P>
-                                <div class="icon-grp">
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                    <i class="fa-solid fa-star star"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section-6 -->
-    <div class="sec6">
-        <div class="container">
-            <div class="row mx-0 news">
-                <div class="col-12 heading text-center mb-5">
-                    <h1>LATEST <span>NEWS</span></h1>
-                    <p>-- Latest news about newly grownig products and companies --</p>
-                </div>
-                <!--  -->
-                <div class="col-lg-4 col-12 mb-lg-0 mb-5 overflow-hidden">
-                    <div class="one overflow-hidden position-relative" id="one">
-                        <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-01.jpg"
-                            alt="">
-                        <div class="overlay position-absolute z-1">
-                            <p id="date">December 27, 2020</p>
-                            <h3 id="title">Scent in the Voyages</h3>
-                            <p id="title-under">|&nbsp;&nbsp; Aorem ipsum dolor sit amet.</p>
-                            <p id="para">Let years seasons given two fowl above is itself shall third night female
-                                seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
-                                creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
-                            <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
-                            <div class="icon-grp">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-behance"></i></a>
-                            </div>
-                        </div>
-                        <span id="one-top"></span>
-                        <span id="one-bottom"></span>
-                        <span id="one-left"></span>
-                        <span id="one-right"></span>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="col-lg-4 col-12 mb-lg-0 mb-5 overflow-hidden">
-                    <div class="one overflow-hidden position-relative" id="one">
-                        <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-02.jpg"
-                            alt="">
-                        <div class="overlay position-absolute z-1">
-                            <p id="date">October 17, 2020</p>
-                            <h3 id="title">Stone of the Flames</h3>
-                            <p id="title-under">|&nbsp;&nbsp; Consect adipisn elit otam.</p>
-                            <p id="para">Let years seasons given two fowl above is itself shall third night female
-                                seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
-                                creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
-                            <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
-                            <div class="icon-grp">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-behance"></i></a>
-                            </div>
-                        </div>
-                        <span id="one-top"></span>
-                        <span id="one-bottom"></span>
-                        <span id="one-left"></span>
-                        <span id="one-right"></span>
-                    </div>
-                </div>
-                <!--  -->
-                <div class="col-lg-4 col-12 overflow-hidden">
-                    <div class="one overflow-hidden position-relative" id="one">
-                        <img class="w-100 h-100 object-fit-cover back-img" src="./assets/images/news/blog-03.jpg"
-                            alt="">
-                        <div class="overlay position-absolute z-1">
-                            <p id="date">February 27, 2020</p>
-                            <h3 id="title">Secrets of Serpents</h3>
-                            <p id="title-under">|&nbsp;&nbsp; Dolor irona ipsum Vit amet.</p>
-                            <p id="para">Let years seasons given two fowl above is itself shall third night female
-                                seasons you’re whales, unto had fowl Herb. Moving so. Said be fruitful first lights
-                                creeping deep void, lesser.Outside, the world carried on, bustling with life.</p>
-                            <p id="note">Share & Subscribe on all media platforms&nbsp;&nbsp; |</p>
-                            <div class="icon-grp">
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-                                <a href="#"><i class="fa-brands fa-behance"></i></a>
-                            </div>
-                        </div>
-                        <span id="one-top"></span>
-                        <span id="one-bottom"></span>
-                        <span id="one-left"></span>
-                        <span id="one-right"></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- section-7 -->
-    <div class="sec7">
-        <div class="container">
-            <div class="heading text-center mb-5">
-                <h1>INVESTMENT <span>PLANS</span></h1>
-                <p>Pricing Plans to make your work more efficient</p>
-            </div>
-            <div class="row mx-0 cards-wrapper justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-md-5 col-12 mb-md-0 mb-4">
-                    <div class="crd">
-                        <h2 id="free">Free</h2>
-                        <p id="freelance">For Freelancers</p>
-                        <h1 id="price">$0</h1>
-                        <ul id="list">
-                            <li><i class="fa-regular fa-circle-check"></i>1 User</li>
-                            <li><i class="fa-regular fa-circle-check"></i>10 Downloads per day</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Not Fully Editable Files</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Browse With ads</li>
-                        </ul>
-                        <a href="#" id="btn">Subscribe</a>
-                    </div>
-                </div>
-                <!-- c2 -->
-                <div class="col-xl-3 col-lg-4 col-md-5 col-12">
-                    <div class="crd">
-                        <h2 id="free">Basic</h2>
-                        <p id="freelance">For Students</p>
-                        <h1 id="price">$20</h1>
-                        <ul id="list">
-                            <li><i class="fa-regular fa-circle-check"></i>1 User</li>
-                            <li><i class="fa-regular fa-circle-check"></i>50 Downloads per day</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Browse With ads</li>
-                        </ul>
-                        <a href="#" id="btn">Subscribe</a>
-                    </div>
-                </div>
-                <!-- c3 -->
-                <div class="col-xl-3 col-lg-4 col-md-5 col-12 mt-lg-0 mt-4">
-                    <div class="crd">
-                        <h2 id="free">Gold</h2>
-                        <p id="freelance">For Team</p>
-                        <h1 id="price">$70</h1>
-                        <ul id="list">
-                            <li><i class="fa-regular fa-circle-check"></i>20 User</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Unlimited Downloads</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Browse Without ads</li>
-                        </ul>
-                        <a href="#" id="btn">Subscribe</a>
-                    </div>
-                </div>
-                <!-- c4 -->
-                <div class="col-xl-3 col-lg-4 col-md-5 col-12 mt-xl-0 mt-4">
-                    <div class="crd">
-                        <span id="badge">20%<br>Super<br>Sale</span>
-                        <h2 id="free">Premium</h2>
-                        <p id="freelance">For Company</p>
-                        <h1 id="price">$150</h1>
-                        <ul id="list">
-                            <li><i class="fa-regular fa-circle-check"></i>Unlimited User</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Unlimited Downloads</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Daily Content Update</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Fully Editable Files</li>
-                            <li><i class="fa-regular fa-circle-check"></i>Browse Without ads</li>
-                        </ul>
-                        <a href="#" id="btn">Subscribe</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- footer -->
-    <footer>
-        <div class="container">
-            <div class="row mx-0">
-                <!-- 1 -->
-                <div class="col-lg-4 col-sm-7 first">
-                    <h1 id="logo">Ashley.</h1>
-                    <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt placeat hic corporis
-                        dolorum
-                        natus. Aliquid, iure modi minima voluptatum voluptates.</p>
-                    <!--  -->
-                    <div class="details d-flex flex-column">
-                        <!-- address -->
-                        <div class="detail d-flex align-items-center">
-                            <i class="fa-solid fa-map-location-dot"></i>
-                            <div>
-                                <p id="name">Address</p>
-                                <p id="para">1234 Main Street, New York, USA</p>
-                            </div>
-                        </div>
-                        <!-- email -->
-                        <div class="detail d-flex align-items-center">
-                            <i class="fa-solid fa-envelope-open-text"></i>
-                            <div>
-                                <p id="name">Email</p>
-                                <p id="para">Info56company@gamil.com</p>
-                            </div>
-                        </div>
-                        <!-- phone -->
-                        <div class="detail d-flex align-items-center">
-                            <i class="fa-solid fa-phone"></i>
-                            <div>
-                                <p id="name">Phone</p>
-                                <p id="para">0000 - 5547 - 2545 - 1</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- 2 -->
-                <div class="col-lg-3 col-sm-5 second mt-sm-0 mt-5">
-                    <ul class="list">
-                        <h1>Services</h1>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">App Design</a></li>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Graphic Design</a></li>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Cyber Security</a></li>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Ethical Hacking</a></li>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Web Development</a></li>
-                        <li><i class="fa-solid fa-chevron-right"></i><a href="#">Digital Marketing</a></li>
-                    </ul>
-                </div>
-                <!-- 3 -->
-                <div class="col-lg-5 col-12 third mt-lg-0 mt-sm-5 mt-4">
-                    <div class="comments">
-                        <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Leonardo
-                                Shed</span>&nbsp;
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
-                            tenetur quam id magni, voluptatem reiciendis. Accusamus magnam iusto fuga soluta aperiam?
-                        </p>
-                        <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Winslett
-                                decaprio</span>&nbsp;
-                            Necessitatibus eius ccusamus magnam iusto fuga soluta aperiam doloremque tenetur quam id
-                            magni, voluptatem reiciendis. Accusamus
-                            magnam iusto fuga soluta aperiam.
-                        </p>
-                        <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Brade
-                                de wan</span>&nbsp;
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
-                            Accusamus magnam iusto fuga soluta aperiam.
-                        </p>
-                        <p id="para"><span><i class="fa-solid fa-at"></i> <i class="fa-brands fa-twitter"></i> Sehra
-                                Sam</span>&nbsp;
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eius doloremque
-                            tenetur quam id magni, voluptatem reiciendis. Accusamus magnam iusto fuga soluta aperiam.
-                        </p>
-                    </div>
-                    <div class="btn1 d-flex align-items-center justify-content-between"
-                        data-bs-target="#exampleModalToggle" data-bs-toggle="modal">
-                        <p>LOGIN HERE</p>
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- modal -->
-        <!-- m1 -->
-        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header border-0">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <form action="#" class="text-center d-flex flex-column align-items-center form1">
-                            <img src="./assets/images/user-286.png" alt="img" class="w-25 h-25 ">
-                            <h3 class="mb-5 log">User Login</h3>
-                            <input type="email" placeholder="Email or Phone Number" class="w-100 bg-transparent mb-4">
-                            <input type="password" placeholder="Password" class="w-100 bg-transparent mb-5">
-                            <a href="#" class="text-decoration-none">Have an account? <span>Sign up</span></a>
-                            <a href="#" class="text-decoration-none">Forgotten Password?</a>
-                        </form>
-                    </div>
-                    <div class="modal-footer border-top-0 align-items-center">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
-                            data-bs-toggle="modal">Continue</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- m2 -->
-        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
-            tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body">
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        <form action="#" class="text-center d-flex flex-column align-items-center form1">
-                            <img src="./assets/images/user-286.png" alt="img">
-                            <h3 class="log">User Info</h3>
-                            <input type="text" placeholder="First Name" class="w-100 bg-transparent mb-4">
-                            <input type="text" placeholder="Last Name" class="w-100 bg-transparent mb-4">
-                            <input type="text" placeholder="Id Number" class="w-100 bg-transparent mb-5">
-                            <a href="#" class="text-decoration-none submit">Submit</a>
-                        </form>
-                    </div>
-                    <div class="modal-footer border-top-0">
-                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><i
-                                class="fa-solid fa-angles-left"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- last -->
-    <div class="last text-center" id="last">
-        <p>- <b>Ashley</b> Website &copy; 2024 All Copyrights Reserved. Created by <b>HellBoy</b> -</p>
-        <div class="icon-grp">
-            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="#"><i class="fa-brands fa-behance"></i></a>
-            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        </div>
-    </div>
+    </main>
 
     <!-- js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -54,34 +54,6 @@ button.addEventListener("click", () => {
     };
 });
 
-// news card hover effects
-
-// let cardOne = document.getElementById("one");
-// let topEff = document.getElementById("one-top");
-// let bottomEff = document.getElementById("one-bottom");
-// let leftEff = document.getElementById("one-left");
-// let rightEff = document.getElementById("one-right");
-
-// cardOne.addEventListener("mouseover", () => {
-//     topEff.style.width = "100%";
-//     if (topEff.style.width = "100%") {
-//         rightEff.style.height = "100%";
-//     }
-//     if (rightEff.style.height = "100%") {
-//         bottomEff.style.width = "100%";
-//     }
-//     if (bottomEff.style.width = "100%") {
-//         leftEff.style.height = "100%";
-//     }
-// });
-
-// cardOne.addEventListener("mouseleave", () => {
-//     topEff.style.width = "0%";
-//     rightEff.style.height = "0%";
-//     bottomEff.style.width = "0%";
-//     leftEff.style.height = "0%";
-
-// });
 
 
 
