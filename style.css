@@ -587,7 +587,7 @@ header .content .text-content .footer .btn1:hover i {
 
 
 .sec1 .image-wrapper #back-effect {
-    background-image: url(../images/sec1-back.jpg);
+    background-image: url(/assets/images/sec1-back.webp);
     background-size: cover;
     height: 150vh;
     width: 250px;
@@ -1101,7 +1101,7 @@ header .content .text-content .footer .btn1:hover i {
 }
 
 .sec3 .image-wrapper #back-effect {
-    background-image: url(../images/sec1-back.jpg);
+    background-image: url(/assets/images/sec1-back.webp);
     background-size: cover;
     height: 150vh;
     width: 250px;
