@@ -8,6 +8,18 @@
     font-family: "Outfit", sans-serif;
 }
 
+
+video {
+    display: block;
+}
+
+@media (max-width: 767px) {
+    video {
+        display: none;
+    }
+
+}
+
 header {
     height: 100vh;
     overflow: hidden;
@@ -15,6 +27,7 @@ header {
     display: flex;
     align-items: center;
     position: relative;
+    background: #000;
 }
 
 header video {
@@ -666,6 +679,7 @@ header .content .text-content .footer .btn1:hover i {
     padding-bottom: 50px;
     position: relative;
     overflow: hidden;
+    background: #000;
 }
 
 .sec2 video {
